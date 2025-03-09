@@ -11,9 +11,9 @@ export const registerUser = createAsyncThunk("auth/registerUser", async (userDat
   return response.data;
 });
 
-const initialState = {
-  user: null,  // Ensure initial state is not undefined
-};
+// const initialState = {
+//   user: null,  // Ensure initial state is not undefined
+// };
 
 const authSlice = createSlice({
   name: "auth",
