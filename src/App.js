@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Dashboard from "./components/Dashboard";
 import Transactions from "./components/Transactions";
 import TransferFunds from "./components/TransferFunds";
